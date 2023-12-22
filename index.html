@@ -431,8 +431,22 @@
         </div>
         <div class="subscribe-div">
           <p class="subscribe-text">Subscribe</p>
-          <label> <input type="email" placeholder="E-mail" /> </label>
-          <button type="submit" class="subscribe-btn">Subscribe</button>
+          <form class="subscribe-form">
+            <label>
+              <input
+                class="subscribe-input"
+                type="email"
+                name="E-mail"
+                placeholder="E-mail"
+              />
+            </label>
+
+            <button type="submit" class="subscribe-btn">
+              Subscribe<svg class="btn-subscribe-svg" width="24" height="24">
+                <use href="./images/icons1.svg#icon-sendlogo"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
