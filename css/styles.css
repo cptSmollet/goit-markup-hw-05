@@ -547,8 +547,8 @@ img {
   top: 0;
   left: 0;
   background: rgba(46, 47, 66, 0.4);
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  visibility: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
   opacity: 0;
   visibility: hidden;
 }
@@ -597,16 +597,17 @@ img {
 }
 
 .modal-button:focus {
+  background-color: #404bbf;
   border: none;
 }
 
-.modal-button:hover,
-.btn-modal-cls {
+.modal-button,
+.btn-modal-cls:hover {
   fill: #ffffff;
 }
 
-.modal-button:focus,
-.btn-modal-cls {
+.modal-button,
+.btn-modal-cls:focus {
   fill: #ffffff;
 }
 
@@ -666,7 +667,7 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-..input-svg:focus {
+.input-svg:focus {
   fill: #4d5ae5;
 }
 
@@ -681,6 +682,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   background-color: transparent;
   padding: 8px 16px;
