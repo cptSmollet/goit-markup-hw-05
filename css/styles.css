@@ -589,6 +589,7 @@ img {
   padding: 0;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: #ffffff;
 }
 
 .modal-button:hover {
@@ -599,16 +600,6 @@ img {
 .modal-button:focus {
   background-color: #404bbf;
   border: none;
-}
-
-.modal-button,
-.btn-modal-cls:hover {
-  fill: #ffffff;
-}
-
-.modal-button,
-.btn-modal-cls:focus {
-  fill: #ffffff;
 }
 
 .btn-modal-cls {
