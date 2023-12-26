@@ -711,14 +711,10 @@ img {
   margin-right: 8px;
 }
 
-.input:checked + label > span {
+.input-checkbox .visually-hidden:checked + .checkbox-label > .check-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
-}
-
-.input:checked + label > span {
-  border-color: #4d5ae5;
 }
 
 .form-agreement-link {
