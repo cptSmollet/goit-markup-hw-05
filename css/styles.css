@@ -721,13 +721,13 @@ img {
   margin-right: 8px;
 }
 
-.input-checkbox:checked + .checkbox-label .check-span {
+.input:checked + label > span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
 }
 
-.input-checkbox:focus + .checkbox-label .check-span {
+.input:checked + label > span {
   border-color: #4d5ae5;
 }
 
