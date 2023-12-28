@@ -477,7 +477,7 @@ img {
 }
 
 .subscribe-div {
-  padding-left: 80px;
+  margin-left: 80px;
 }
 
 .subscribe-form {
@@ -654,6 +654,7 @@ img {
 }
 
 .input-svg {
+  fill: #2e2f42;
   position: absolute;
   left: 16px;
   top: 50%;
@@ -755,4 +756,14 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.checkbox-svg {
+  fill: #404bbf;
+  stroke-width: 1px;
+  stroke: #404bbf;
+}
+
+.input-checkbox: checked + .check-span > .checkbox-svg {
+  opacity: 1;
 }
