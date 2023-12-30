@@ -722,6 +722,10 @@ img {
   fill: #f4f4fd;
 }
 
+.input-checkbox.visually-hidden:focus + .checkbox-label > .check-span {
+  border-color: #4d5ae5;
+}
+
 .form-agreement-link {
   color: #4d5ae5;
   text-decoration-line: underline;
@@ -759,9 +763,6 @@ img {
 }
 
 .checkbox-svg {
-  fill: #404bbf;
-  stroke-width: 1px;
-  stroke: #404bbf;
 }
 
 .input-checkbox: checked + .check-span > .checkbox-svg {
